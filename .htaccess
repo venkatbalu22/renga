@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteRule ^home index.php
+RewriteRule ^about about.php
+RewriteRule ^room room.php
+RewriteRule ^contacts contacts.php
+RewriteRule ^room room.php
+RewriteRule ^delux delux.php
+RewriteRule ^superdelux superdelux.php
