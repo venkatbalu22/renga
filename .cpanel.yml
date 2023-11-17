@@ -6,8 +6,8 @@ deployment:
     # access to change owner. So this folder must stay as-is to keep the nobody
     # group, which is critical to the site working. A new folder won't work.
 
-    - export DEPLOYPATH=/home/linkwork/renga.linkwork.in/main
-    - export REPOPATH=/home/linkwork/renga.linkwork.in/main/repo
+    - export DEPLOYPATH=/home/linkwork/renga.linkwork.in
+    - export REPOPATH=/home/linkwork/renga.linkwork.in/repo
 
     # Remove previous old files, if any.
 
