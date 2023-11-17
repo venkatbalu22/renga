@@ -20,7 +20,7 @@ deployment:
     # Sync repository files to the deploy target path, excluding .git folder.
     # --delete-after will remove deleted files and folders after syncing.
 
-    - /bin/rsync -aP --exclude '.git' --exclude '.well-known' ${REPOPATH}/ ${DEPLOYPATH} --delete-after
+    - /bin/rsync -aP --exclude '.git' --exclude '.well-known' --exclude 'cgi-bin' ${REPOPATH}/ ${DEPLOYPATH} --delete-after
     
     # Set correct permissions.
     - /bin/chmod 755 ${DEPLOYPATH}
